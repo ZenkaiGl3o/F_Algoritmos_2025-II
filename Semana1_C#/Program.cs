@@ -9,7 +9,7 @@ namespace Semana1_C_
     {
         static void Main(string[] args)
         {
-            ejer1();
+            ejer2();
             Console.ReadKey();
         }
         static void ejer1()  //Metodos: pedacitos de codigo que pueden llamarse a la rama principal
@@ -27,7 +27,17 @@ namespace Semana1_C_
         }
         static void ejer2()
         {
+            Console.Write("Ingrese el 1er numero: ");
+            int x = int.Parse( Console.ReadLine() ); //Otro metodo para convertir a numero el texto :)
+            Console.Write("Ingrese el 2do numero: ");
+            int y = Convert.ToInt32(Console.ReadLine());
 
+            double resu = x / y;
+
+            Console.WriteLine("Suma: "+(x+y));
+            Console.WriteLine("Resta: " + (x - y));
+            Console.WriteLine("Multiplicacion: " + (x * y));
+            Console.WriteLine("Division: " + resu);
         }
 
         static void ejer3()
