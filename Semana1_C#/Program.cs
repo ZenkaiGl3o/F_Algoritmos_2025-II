@@ -46,9 +46,11 @@ namespace Semana1_C_
         }
         static void ejer4()
         {
-           double raiz2, num = Convert.ToDouble(Console.ReadLine());  //No es necesario agregar las variables al inicio
+           //No es necesario agregar las variables al inicio
             Console.Write("Ingrese un número decimal: ");
+            double num = double.Parse(Console.ReadLine());
 
+            double raiz2 = Math.Sqrt(num);
             raiz2 = Math.Sqrt(num);             //Raiz cuadrada de la variable mencionada
             int redo = (int)Math.Round(num,0);   //Redondea a los decimales mencionados al lado de "num"
             double cubo = Math.Pow(num, 3);  //El nro es el exponente
