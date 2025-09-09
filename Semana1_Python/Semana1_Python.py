@@ -5,4 +5,14 @@
     print(f"Hola {nombre}, bienvenido a FA de {carrera}") 
           #Imprimir es con print, y para concatenacion de interpolacion es una "f" antes de las comillas
 
-ejer1()
+def ejer2():
+    x = int(input("Ingrese el valor de x pe: ")) #int sirve para definirlo como entero manualmente
+    y = int(input("Ingrese el valor de y: "))
+
+    print("Suma: ", (x+y))    #Concatenar (usar texto y variables) en Python es con la coma
+    print("Resta: ", (x-y))
+    print("Multiplicación: ",(x*y))
+    print("División: ", (x/y))
+
+
+ejer2()
