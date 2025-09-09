@@ -27,22 +27,22 @@ namespace Semana1_C_
         }
         static void ejer2()
         {
+            Console.WriteLine("\"Leonardo\"");  //Como colocar comillas en un writeline(si quieres más comillas solo aumentas las barras :)
+        }
+
+        static void ejer3()
+        {
             Console.Write("Ingrese el 1er numero: ");
-            int x = int.Parse( Console.ReadLine() ); //Otro metodo para convertir a numero el texto :)
+            int x = int.Parse(Console.ReadLine()); //Otro metodo para convertir a numero el texto :)
             Console.Write("Ingrese el 2do numero: ");
             int y = Convert.ToInt32(Console.ReadLine());
 
             double resu = x / y;
 
-            Console.WriteLine("Suma: "+(x+y));
+            Console.WriteLine("Suma: " + (x + y));
             Console.WriteLine("Resta: " + (x - y));
             Console.WriteLine("Multiplicacion: " + (x * y));
             Console.WriteLine("Division: " + resu);
-        }
-
-        static void ejer3()
-        {
-
         }
         static void ejer4()
         {

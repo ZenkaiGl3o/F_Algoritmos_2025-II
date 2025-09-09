@@ -6,6 +6,9 @@
           #Imprimir es con print, y para concatenacion de interpolacion es una "f" antes de las comillas
 
 def ejer2():
+    print("\"Leonardo\"")  #Colocar comillas en un print (si quieres más comillas solo sigues aumentando barras )
+
+def ejer3():
     x = int(input("Ingrese el valor de x pe: ")) #int sirve para definirlo como entero manualmente
     y = int(input("Ingrese el valor de y: "))
 
