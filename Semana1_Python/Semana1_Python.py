@@ -27,4 +27,12 @@ def ejer4():
     print("al cubo: ",math.pow(num,3))
     print("raiz 3: ",num **(1/3)) #Conversion de raiz cubica para que sea leible en codigo / ** = es exponente
 
-ejer4()
+def ejer5():
+    num = input("Ingrese numero: ")
+
+    entero = int(num)
+    deci = float(num)
+    print("Resto: ", (entero%2))
+    print("Division: ",(deci/3))
+
+ejer5()
