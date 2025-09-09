@@ -9,7 +9,7 @@ namespace Semana1_C_
     {
         static void Main(string[] args)
         {
-            ejer2();
+            ejer4();
             Console.ReadKey();
         }
         static void ejer1()  //Metodos: pedacitos de codigo que pueden llamarse a la rama principal
@@ -46,7 +46,18 @@ namespace Semana1_C_
         }
         static void ejer4()
         {
+           double raiz2, num = Convert.ToDouble(Console.ReadLine());  //No es necesario agregar las variables al inicio
+            Console.Write("Ingrese un número decimal: ");
 
+            raiz2 = Math.Sqrt(num);             //Raiz cuadrada de la variable mencionada
+            int redo = (int)Math.Round(num,0);   //Redondea a los decimales mencionados al lado de "num"
+            double cubo = Math.Pow(num, 3);  //El nro es el exponente
+            double raiz3 = Math.Pow(num, 1/3d);  //Raiz cubica puede convertirse en 1/3 para q funcione / La "d" esa para que devuelva en decimales
+
+            Console.WriteLine("Raiz 2: "+raiz2);
+            Console.WriteLine("Redondeado: " + redo);
+            Console.WriteLine("Al cubo: " + cubo);
+            Console.WriteLine("Raiz3: "+raiz3);
         }
         static void ejer5()
         {
