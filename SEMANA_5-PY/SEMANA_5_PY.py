@@ -1,3 +1,6 @@
+from traceback import print_exception
+
+
 def ejer1():   #Anidada
     edad = int(input("Ingrese su edad puem: "))
 
@@ -22,6 +25,40 @@ def ejer2():
         print("ISOSCELES")
     else:
         print("ESCALENO")
-        
 
-ejer2()
+def ejer3():
+    n=int(input("Ingrese un numero: ")) 
+    suma=0
+    print()  #Linea vacia
+
+    for i in range(1,n+1):  #Rango de numeros del 1 hasta n(valor variable o fijo)
+        print(i)
+
+        if i % 2 == 0:  #si i divido entre 2 da 0
+            suma += i
+    print("\nSuma de pares: ", suma)
+
+def ejer4():
+
+    cant=int(input("Ingrese la cantidad de numeros: "))
+    ceros = pares = impares = 0
+    print()
+    for i in range(1, cant+1):
+        num=int(input(f"Ingrese el numero{i}: "))
+
+        if num==0:
+            ceros+=1  #ceros++
+        elif num %2==0:
+            pares +=1 #pares++  
+        else:
+            impares +=1 # impar++
+        
+    print("\n#ceros: ",ceros)
+    print("#pares: ",pares)
+    print("#impares: ",impares)
+                
+def ejer5():      
+    print()
+
+
+ejer4()
