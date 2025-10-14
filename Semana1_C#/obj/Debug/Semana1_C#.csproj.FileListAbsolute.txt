@@ -14,3 +14,11 @@ C:\Users\UPN\Desktop\SEM 1\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.
 C:\Users\UPN\Desktop\SEM 1\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.csproj.CoreCompileInputs.cache
 C:\Users\UPN\Desktop\SEM 1\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.exe
 C:\Users\UPN\Desktop\SEM 1\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.pdb
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\bin\Debug\Semana1_C#.exe.config
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\bin\Debug\Semana1_C#.exe
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\bin\Debug\Semana1_C#.pdb
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.csproj.AssemblyReference.cache
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.exe.config
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.exe
+C:\Users\UPN\Desktop\SEMANA-9_FDA\Semana-9-FDA-PRACTICA\F_Algoritmos_2025-II\Semana1_C#\obj\Debug\Semana1_C#.pdb
